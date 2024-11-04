@@ -5,7 +5,7 @@ plugins {
 }
 
 version = "0.1"
-group = "net.punklan.graftnode"
+group = "net.punklan.plantarium"
 
 repositories {
     mavenCentral()
@@ -22,7 +22,7 @@ dependencies {
 
 
 application {
-    mainClass = "net.punklan.graftnode.Application"
+    mainClass = "net.punklan.plantarium.Application"
 }
 java {
     sourceCompatibility = JavaVersion.toVersion("17")
@@ -37,7 +37,7 @@ micronaut {
     testRuntime("junit5")
     processing {
         incremental(true)
-        annotations("net.punklan.graftnode.*")
+        annotations("net.punklan.plantarium.*")
     }
     aot {
         // Please review carefully the optimizations enabled below

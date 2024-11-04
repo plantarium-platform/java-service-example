@@ -1,5 +1,5 @@
 applicationType: default
-defaultPackage: net.punklan.graftnode
+defaultPackage: net.punklan.plantarium
 testFramework: junit
 sourceLanguage: java
 buildTool: gradle_kotlin

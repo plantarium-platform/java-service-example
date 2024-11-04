@@ -1,4 +1,4 @@
-package net.punklan.graftnode;
+package net.punklan.plantarium;
 
 import io.micronaut.runtime.Micronaut;
 
